@@ -1,18 +1,18 @@
 body {
   font-family: Open Sans,Segoe UI,Tahoma,sans-serif;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 /* menu */
 .container-1000 {
-  max-width: 1000px;
+  width: 1000px;
   margin: 0 auto;
 }
 
 .header-top {
   position: fixed;
   width: 100%;
-  line-height: 50px;
+  line-height: 20px;
   background-color: white;
   z-index: 4;
 }
@@ -42,6 +42,10 @@ body {
   color: white;
 }
 
+.img-jumbo {
+  width: 100%;
+}
+
 .jumbo-text {
   position: absolute;
   top: 50%;
@@ -55,3 +59,34 @@ body {
 }
 /* fine jumbo */
 /* main */
+
+main {
+  width: 100%;
+}
+
+.scooter div {
+  background-color: rgb(245, 245, 245);
+  padding-top: 50px;
+}
+
+.scooter h2,
+.scooter h3 {
+  text-align: center;
+}
+
+.scooter a {
+  color: blue;
+  text-decoration: none;
+}
+
+.scooter img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coming,
+.learn {
+  text-align: center;
+}
