@@ -29,10 +29,11 @@ body {
   text-decoration: none;
   color: black;
   margin: 5px;
+  font-size: 10px;
 }
 
 .logo {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 /* fine menu */
 /* jumbo */
@@ -51,7 +52,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .apps {
@@ -59,7 +60,6 @@ body {
 }
 /* fine jumbo */
 /* main */
-
 main {
   width: 100%;
 }
@@ -67,6 +67,7 @@ main {
 .scooter div {
   background-color: rgb(245, 245, 245);
   padding-top: 50px;
+  border-radius: 5px;
 }
 
 .scooter h2,
@@ -89,4 +90,12 @@ main {
 .coming,
 .learn {
   text-align: center;
+}
+
+.iphone {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
 }
