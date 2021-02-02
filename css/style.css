@@ -1,0 +1,30 @@
+body {
+  font-family: Open Sans,Segoe UI,Tahoma,sans-serif;
+  font-size: 10px;
+}
+
+/* menu */
+.container-1000 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu-inline {
+  list-style: none;
+  line-height: 80px;
+}
+
+.menu-inline li {
+  display: inline;
+  text-transform: uppercase;
+}
+
+.menu-inline li a {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+
+.logo {
+  padding-top: 30px;
+}
