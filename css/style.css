@@ -9,9 +9,15 @@ body {
   margin: 0 auto;
 }
 
+.header-top {
+  position: fixed;
+  width: 100%;
+  line-height: 50px;
+  background-color: white;
+  z-index: 4;
+}
 .menu-inline {
   list-style: none;
-  line-height: 80px;
 }
 
 .menu-inline li {
@@ -28,3 +34,24 @@ body {
 .logo {
   padding-top: 30px;
 }
+/* fine menu */
+/* jumbo */
+.jumbo {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.jumbo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+}
+
+.apps {
+  width: 15%;
+}
+/* fine jumbo */
+/* main */
