@@ -1,149 +1,268 @@
+html {
+  font-size: 10px;
+}
 body {
-  font-family: Open Sans,Segoe UI,Tahoma,sans-serif;
-  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  /* background-color: red; */
 }
 
-/* menu */
-.menu-inline {
+/* Utilità */
+.container_1000 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.menu_inline {
   list-style: none;
 }
-.menu-inline li {
+.menu_inline li {
   display: inline;
-  margin-right: 10px;
+  margin-right: 20px;
   text-transform: uppercase;
 }
-.menu-inline li a {
+.menu_inline li a {
   text-decoration: none;
   color: black;
-  font-size: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
 }
-
-.lg-display-none {
+.lg_display_none {
   display: none;
 }
-.lg-display-block {
+.lg_display_block {
   display: block;
 }
-/* fine menu */
-/* header */
-.header-top {
-  position: fixed;
-  width: 100%;
-  line-height: 80px;
-  background-color: white;
-  z-index: 4;
-  padding: 0 2%;
+.p_medium {
+  font-size: 1.8em;
+  margin: 20px 0;
 }
-.header-logo {
-  vertical-align: middle;
-}
-
-.icon-hamburger {
-  float: right;
-  vertical-align: middle;
-  line-height: 80px;
-  font-size: 30px;
-}
-
-@media screen and (min-width: 768px) and (max-width: 992px){
-  .md-display-block {
-    display: block;
-  }
-  .md-display-none {
-    display: none;
-  }
-}
-
-/* fine header */
-/* jumbo */
-.jumbo {
-  position: relative;
-  height: 400px;
-  margin-top :80px;
-  background-image: url("../img/hero-bg.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.jumbo-text {
-  position: absolute;
-  width: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.text_center {
   text-align: center;
-  font-size: 10px;
+}
+.margin_top_40 {
+  margin-top: 40px;
+}
+.margin_top_300 {
+  margin-top: 300px;
+}
+.margin_top_650 {
+  margin-top: 650px;
+}
+/* Link */
+a.link_arrow {
+  font-size: 1.8em;
+  text-decoration: none;
+  color: #3978BE;
+}
+a.link_arrow span,
+a.link_arrow span,
+a.link_arrow span{
+  margin-right: 5px;
+}
+a.link_arrow:hover span,
+a.link_arrow:active span,
+a.link_arrow:focus span{
+  text-decoration: underline;
+  margin-right: 5px;
+}
+a.link_arrow:after {
+  font-weight: 900;
+  display: inline;
+  vertical-align: middle;
+}
+a.link_white {
   color: white;
 }
 
-.jumbo-text h1 {
-  font-size: 3.5em;
-  margin-bottom: 0.8em;
+/* header */
+header {
+  background-color: white;
 }
-.jumpo-text p {
-  font-size: 2em;
-  margin-bottom: 0.8em;
-}
-.jumbo-text a img {
+.header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
   width: 100%;
+  line-height: 80px;
+  background-color: white;
 }
-.jumbo-text a {
-  width: calc(100%/5);
-  display: inline-block;
+.header_logo {
+  vertical-align: middle;
+}
+.header_menu li{
+  text-align: left;
+  margin-right: 25px;
+}
+.header_menu_lang li:not(:last-child) {
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+.ico_hamburger {
+  float: right;
+  font-size: 3.7em;
+  line-height: 80px;
+  vertical-align: middle;
 }
 
-/* fine jumbo */
-/* main */
-main {
-  width: 100%;
+/* Jumbo */
+.jumbo {
+  position: relative;
+  height: 400px;
+  margin-top: 80px;
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
 }
-
-.scooter div {
-  padding-top: 50px;
-  border-radius: 5px;
-}
-
-.scooter h2,
-.scooter h3 {
+.jumbo_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
   text-align: center;
+  color: white;
+}
+.jumbo_text h1 {
+  font-size: 4em;
+  margin-bottom: 0.8rem;
+}
+.jumbo_text p {
+  font-size: 1.5em;
+  margin-bottom: 0.8rem;
 }
 
-.scooter a {
-  color: blue;
-  text-decoration: none;
-}
-
-.scooter img {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.learn,
-.coming {
-  text-align: center;
-  padding: 20px 50px;
-  margin: 0 20px;
+/* Products */
+.box_grey {
+  margin: 0 10px;
+  padding: 40px 20px;
   background-color: #FAFAFA;
+  text-align: center;
+}
+.products_title {
+  height: 20px;
+}
+.bikes {
+  display: block;
+  width: 50%;
+  margin: 10px auto 0;
 }
 
+/* OldMan */
+#old_man {
+  background-image: url(../img/HelbizBanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
 .iphone {
-  width: 100%;
+  width: 80%;
 }
 
-.banner img {
-  width: 100%;
+/* smart */
+.bg_smart {
+  position: relative;
+  height: 400px;
+  background-image: url(../img/ScooterHelbiz-2400.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-@media screen and (max-width: 768px){
-  .md-display-block {
+.text_banner {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 30%;
+  padding: 0 30px;
+  transform: translateY(-50%);
+  color: white;
+}
+.text_banner h2 {
+  font-size: 3.5em;
+}
+.text_banner p {
+  margin: 20px 0;
+  font-size: 2em;
+}
+
+/* Media Query */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  /* Utilita */
+  .md_display_block {
     display: block;
   }
-  .md-display-none {
+  .md_display_none {
     display: none;
   }
-  .jumbo-text a {
-    width: calc(100%/4);
+
+  /* header */
+  .header-top {
+    padding: 0 2%;
+  }
+
+  /* Jumbo */
+  .jumbo_text a {
+    width: calc(100% / 4);
     display: inline-block;
+  }
+  .jumbo_text a img {
+    width: 100%;
+  }
+
+  .text_banner {
+    font-size: 8px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 8px;
+  }
+
+  /* Utilita */
+  .xs_display_block {
+    display: block;
+  }
+  .xs_display_none {
+    display: none;
+  }
+
+  /* header */
+  .header-top {
+    padding: 0 2%;
+  }
+
+  /* Jumbo */
+  .jumbo_text h1 {
+    font-size: 3.5em;
+    margin-bottom: 0.8rem;
+  }
+  .jumbo_text p {
+    font-size: 2em;
+    margin-bottom: 0.8rem;
+  }
+  .jumbo_text a {
+    width: calc(100% / 5);
+    display: inline-block;
+  }
+  .jumbo_text a img {
+    width: 100%;
+  }
+
+  /* Products */
+  .products_title {
+    height: 15px;
+  }
+  .xs_margin_bottom_20 {
+    margin-bottom: 20px;
+  }
+
+  /* smart */
+  .text_banner {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    font-size: 5px;
   }
 }
